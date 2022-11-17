@@ -232,7 +232,7 @@ def main_function(chr):
     return df_total, df_base_imfor, df_components_imfor, df_usage_imfor
 
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     url = 'https://www.icama.cn/BasicdataSystem/pesticideRegistration/queryselect.do'
     chr = Set_nohead_dri(url)
@@ -242,5 +242,3 @@ if __name__ == '__main__':
     df_base_imfor.to_csv('./df_base.csv')
     df_components_imfor.to_csv('./df_components.csv')
     df_usage_imfor.to_csv('./df_usage.csv')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
