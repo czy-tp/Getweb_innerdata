@@ -1,8 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
 import web_1  #加载 获取 农药信息网 数据的函数
 import web_2  #加载 获取 车主之家 数据的函数
 
