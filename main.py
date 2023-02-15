@@ -77,7 +77,7 @@ def Get_single_soup(jbox_file_name, urlhear='https://www.icama.cn'):
 
     # 请求网站信息，并解析
     res = requests.get(url, headers=headers)
-    res.ending = 'utf-8'
+    res.encoding = 'utf-8'
     jbox_soup = BeautifulSoup(res.text, 'lxml')
 
     # 返回 BeautifulSoup
