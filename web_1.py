@@ -224,9 +224,9 @@ def main_function(chr):
     return df_total, df_base_imfor, df_components_imfor, df_usage_imfor
 
 
-# Press the green button in the gutter to run the script.
+# 网址做了模糊处理
 if __name__ == '__main__':
-    url = 'https://www.icama.cn/BasicdataSystem/pesticideRegistration/queryselect.do'
+    url = 'https://web_农药'#农药相关信息网站
     chr = Set_nohead_dri(url)
     df_total, df_base_imfor, df_components_imfor, df_usage_imfor = main_function(chr)
     # 将数据保存到文件中
