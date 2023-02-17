@@ -2,8 +2,8 @@ import web_1  #加载 获取 农药信息网 数据的函数
 import web_2  #加载 获取 车主之家 数据的函数
 
 # 根据选择的数字判断需要爬取的网站
-url_1 = r'https://www.icama.cn/BasicdataSystem/pesticideRegistration/queryselect.do'
-url_2 = r'https://auto.16888.com/form.html'
+url_1 = r'http://web_农药'#农药信息相关网站
+url_2 = r'https://web_汽车'#汽车信息相关网站
 
 
 
