@@ -61,7 +61,7 @@ def all_from_imfor(soup, froml):
 
 
 if __name__ == '__main__' :
-    url = r'https://auto.16888.com/form.html'
+    url = r''
     chr = web_1.Set_nohead_dri(url)
     soup = BeautifulSoup(chr.page_source, 'lxml')
     froml = from_imfor(soup)
