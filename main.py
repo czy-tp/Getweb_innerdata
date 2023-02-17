@@ -234,7 +234,7 @@ def main_function(chr):
 
 
 if __name__ == '__main__':
-    url = 'https://www.icama.cn/BasicdataSystem/pesticideRegistration/queryselect.do'
+    url = ''
     chr = Set_nohead_dri(url)
     df_total, df_base_imfor, df_components_imfor, df_usage_imfor = main_function(chr)
     # 将数据保存到文件中
